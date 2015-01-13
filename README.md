@@ -1,5 +1,5 @@
 # url-miner
-Programmatically creates urls based on a pre-defined protocol of word elements. It then determines whether or not the URL is available for purchase and logs the status to an output file. 
+Programmatically creates URLs based on a pre-defined protocol of word elements. It then determines whether or not the URL is available for purchase and logs the status to an output file. 
 
 # Details
 Ever needed a domain, only to find that every. single. dot. com. has been purchased by some legion of unknown, rich and chortling dickheads? After lamenting that you're 15 years late to the domain-buying party, you can turn to the URL Miner to programmatically find availalbe URLs. The Miner creates URLs based on a predefined protocol and then checks the URL's availability, logging the status to an output file.
@@ -30,4 +30,4 @@ The files save to a folder called 'output'. The name of the file is automaticall
 The output files is a csv with two fields. The first is the URL. The second is the availability of the domain. A value of 0 means the domain is unavailable. A value of 1 means the domain is available. 
 
 ## Additional Notes
-The current version of this uses dictionaries and word part lists culled from the internet. Unfortunately, I did not document these at the time of discovery. We will update the documentation as we know ore.  
+The current version of this uses dictionaries and word part lists culled from the internet. Unfortunately, I did not document these at the time of discovery. We will update the documentation as we know more.  
