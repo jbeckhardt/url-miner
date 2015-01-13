@@ -1,5 +1,5 @@
 # url-miner
-Creates urls based on a protocol of word parts and checks the availability of the url
+Programmatically creates urls based on a pre-defined protocol of word elements. It then determines whether or not the URL is available for purchase and logs the status to an output file. 
 
 # Details
 Ever needed a domain, only to find that every. single. dot. com. has been purchased by some legion of unknown rich and chortling dickheads? After lamenting that you're 15 years late to the domain-buying party, you can turn to the URl Miner. The Miner programmatically creates URLs based on a predefined protocol and then checks the URL's availability, logging the status to an output file.
