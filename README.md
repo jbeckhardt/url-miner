@@ -13,7 +13,7 @@ At the top of the file, you can declare a 'protocol' which will define how a str
  * syllable (sy) 
  * prefix (pr) 
  * suffix (su)
- * phoneme (ph) 
+ * phoneme (ph) (A phoneme is a sound - similar to a syllable except it includes things like 'ch' and 'th')
  * phoneme consonant (phc) 
  * phoneme vowel (phv)
 
