@@ -2,10 +2,10 @@
 Programmatically creates urls based on a pre-defined protocol of word elements. It then determines whether or not the URL is available for purchase and logs the status to an output file. 
 
 # Details
-Ever needed a domain, only to find that every. single. dot. com. has been purchased by some legion of unknown, rich and chortling dickheads? After lamenting that you're 15 years late to the domain-buying party, you can turn to the URl Miner. The Miner programmatically creates URLs based on a predefined protocol and then checks the URL's availability, logging the status to an output file.
+Ever needed a domain, only to find that every. single. dot. com. has been purchased by some legion of unknown, rich and chortling dickheads? After lamenting that you're 15 years late to the domain-buying party, you can turn to the URL Miner to programmatically find availalbe URLs. The Miner creates URLs based on a predefined protocol and then checks the URL's availability, logging the status to an output file.
 
 ## Protocol
-At the top of the file, you can declare a 'protocol' which will define how a string is created. Strings can be created with a number of english language word parts. They are listed below along with their protocol abbreviation. 
+At the top of the file, you can declare a 'protocol' which will define how a URL string is created. Strings can be created with a number of english language word parts. They are listed below along with their protocol abbreviation. 
  * consonant (c) 
  * vowel (v)
  * word (w)
@@ -17,7 +17,7 @@ At the top of the file, you can declare a 'protocol' which will define how a str
  * phoneme consonant (phc) 
  * phoneme vowel (phv)
 
-To define the protocol, declare each word-part as a string in a python list. For example, if you want to create strings that go 'consonant-vowel-consonant-consonsant-suffix' you would set protocol = ['c','v','c','c','su']. An example output of this protocol might be 'canting'
+To define the protocol, declare each word-part as a string in a python list. For example, if you want to create strings that go 'consonant-vowel-consonant-consonsant-suffix' you would set protocol = ['c','v','c','c','su']. An example output of this protocol might be 'canning', or www.canning.com (not available). 
 
 ## Additional configurations
 There are two additional variables that can be configured:
