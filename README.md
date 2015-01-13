@@ -21,7 +21,7 @@ To define the protocol, declare each word-part as a string in a python list. For
 
 ## Additional configurations
 There are two additional variables that can be configured:
-* max_domain_ength:  The maximum length of the string 
+* max_domain_length:  The maximum length of the URL string (not including 'www' or '.com') 
 * cycles = The number of output cycles
 
 ## Output Log
