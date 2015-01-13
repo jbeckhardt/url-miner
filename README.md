@@ -25,9 +25,11 @@ There are two additional variables that can be configured:
 * cycles = The number of output cycles
 
 ## Output Log
-The files save to a folder called 'output'. The name of the file is automatically generated to match the protocol. If the file already exists, the new output aapends to the original file. 
+The files save to a folder called 'output'. The name of the file is automatically generated to match the protocol. If the file already exists, the new output appends to the original file. 
 
 The output files is a csv with two fields. The first is the URL. The second is the availability of the domain. A value of 0 means the domain is unavailable. A value of 1 means the domain is available. 
 
 ## Additional Notes
 The current version of this uses dictionaries and word part lists culled from the internet. Unfortunately, I did not document these at the time of discovery. We will update the documentation as we know more.  
+
+The program uses an account on Free Domain API to check URL availability. 
